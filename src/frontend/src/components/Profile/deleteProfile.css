@@ -1,0 +1,52 @@
+/* src/styles/DeleteProfile.css */
+
+.delete-profile-container {
+    width: 400px;
+    margin: 80px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 2px solid #ff4d4d;
+}
+
+.delete-profile-container h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.delete-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.delete-button {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.confirm-delete {
+    background: #ff4d4d;
+    color: white;
+}
+
+.confirm-delete:hover {
+    background: #cc0000;
+}
+
+.cancel-delete {
+    background: #007bff;
+    color: white;
+}
+
+.cancel-delete:hover {
+    background: #0056b3;
+}

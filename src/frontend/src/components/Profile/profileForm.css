@@ -1,0 +1,60 @@
+/* src/styles/CreateProfile.css */
+.create-profile-container {
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.create-profile-container h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.create-profile-container input,
+.create-profile-container select,
+.create-profile-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.create-profile-container textarea {
+    height: 60px;
+}
+
+.create-profile-container input[type="file"] {
+    border: none;
+}
+
+.profile-preview {
+    margin: 10px 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+}
+
+.create-profile-container button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.create-profile-container button:hover {
+    background: #0056b3;
+}

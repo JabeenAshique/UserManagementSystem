@@ -1,0 +1,64 @@
+/* ✅ General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* ✅ Container Styling */
+.add-user-container {
+    width: 400px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.add-user-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* ✅ Form Fields */
+.add-user-container input,
+.add-user-container select,
+.add-user-container textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.add-user-container textarea {
+    resize: none;
+    height: 80px;
+}
+
+/* ✅ Button Styling */
+.add-user-container button {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.add-user-container button:hover {
+    background: #0056b3;
+}
+
+/* ✅ Responsive Design */
+@media (max-width: 600px) {
+    .add-user-container {
+        width: 90%;
+    }
+}

@@ -1,0 +1,61 @@
+/* ✅ General Page Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* ✅ Login Container */
+.admin-login-container {
+    width: 350px;
+    background: #ffffff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* ✅ Login Title */
+.admin-login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* ✅ Input Fields */
+.admin-login-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* ✅ Login Button */
+.admin-login-container button {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.admin-login-container button:hover {
+    background: #0056b3;
+}
+
+/* ✅ Responsive Design */
+@media (max-width: 600px) {
+    .admin-login-container {
+        width: 90%;
+    }
+}
